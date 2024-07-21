@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.container {
+    background: rgba(191, 63, 186, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    width: 80%;
+}
+
+#guessButton {
+    background-color: #800080; 
+    color: white;
+    cursor: pointer;
+}
+
+#guessButton:hover {
+    background-color: #9932CC; 
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#resetButton {
+    background-color: #f44336;
+}
+
+#resetButton:hover {
+    background-color: #e53935;
+}
